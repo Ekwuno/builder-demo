@@ -1,0 +1,11 @@
+application:
+  name: try-my-builder-site
+  project: BuilderIO-demo
+  cloud_region: aws/us-east-2
+  publicly_accessible: true
+routers:
+- name: main
+  routes:
+  - application_name: try-my-builder-site
+    paths:
+    - /*
